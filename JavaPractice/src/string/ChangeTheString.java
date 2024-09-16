@@ -27,6 +27,5 @@ public class ChangeTheString {
 			System.out.println(output);
 		
 	}
-
 }
 	

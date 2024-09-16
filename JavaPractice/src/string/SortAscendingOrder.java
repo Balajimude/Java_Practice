@@ -22,8 +22,6 @@ public class SortAscendingOrder
 				}
 			}
 		System.out.println(Arrays.toString(str));
-	}
-	
-
+	}	
 }
 

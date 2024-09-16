@@ -9,16 +9,16 @@ public class CountNoOfEachElementInArray
 	   int[] no = {1, 2, 3, 2, 3, 1, 4, 1, 2, 3, 5};
 	   
 	   HashMap<Integer, Integer> hm=new HashMap<Integer, Integer>();
-	   for(int i=0;i<no.length;i++)
+	   for(int i:no)
 	   {
-		   if(hm.containsKey(no[i]))
+		   if(hm.containsKey(i))
 		   {
-			   int count=hm.get(no[i]);
-			   hm.put(no[i], ++count);
+			   int count=hm.get(i);
+			   hm.put(i, ++count);
 		   }
 		   else
 		   {
-			   hm.put(no[i], 1);
+			   hm.put(i, 1);
 		   }
 	   }
 	     System.out.println(hm);

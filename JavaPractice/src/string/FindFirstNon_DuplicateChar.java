@@ -34,10 +34,7 @@ public class FindFirstNon_DuplicateChar {
 			  break;
 		  }
 		     
-		}   
-		
+		}   	
 	}
-
-	
 }
 

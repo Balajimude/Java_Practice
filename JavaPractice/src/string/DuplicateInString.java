@@ -13,6 +13,7 @@ public class DuplicateInString
 			for(int j=i+1;j<s.length();j++)
 			{
 				if(c[i]==c[j])
+					System.out.println(c[i]);
 					count++;
 			}
 		}

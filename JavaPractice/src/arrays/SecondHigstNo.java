@@ -26,6 +26,5 @@ public class SecondHigstNo
 		}
 		System.out.println("Second Higest No is "+a[1]);
 	}
-
 }
 

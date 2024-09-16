@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class MissingNoInArray {
 
 	public static void main(String[] args) {
@@ -19,10 +21,11 @@ public class MissingNoInArray {
 				}
 			}	
 		}
-//		for(int m=0;m<n.length;m++)
-//		{
-//			System.out.println(n[m]);
-//		}
+		for(int m=0;m<n.length;m++)
+		{
+			System.out.println(n[m]);
+		}
+		System.out.println("--------------------------");
 		for(int a=0;a<n.length;a++)
 		{
 			
@@ -31,8 +34,21 @@ public class MissingNoInArray {
 				System.out.println(miss);
 			}
 			miss=miss+1;
-
 		}
+		  int a[]={1, 2, 4, 6, 3, 7, 8};
+		   Arrays.sort(a);
+		  
+		   System.out.println(Arrays.toString(a));
+		   int count=1;
+		   for(int i=0;i<a.length;i++)
+		   {
+		      if(a[i]!=count)
+				{
+		          System.out.println(count);
+		          count=count+1;
+		        }
+		      
+		      count=count+1;
+		   }  
 	}
-
 }

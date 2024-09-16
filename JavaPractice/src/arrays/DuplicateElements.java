@@ -23,7 +23,6 @@ public class DuplicateElements
 			System.out.println("Array has Duplicate Number");
 		else
 			System.out.println("Array not hass Duplicate Number");
-
 	}
 }
 

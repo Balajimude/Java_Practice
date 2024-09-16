@@ -6,7 +6,7 @@ public class CountPairsWithGivenSum {
 		// TODO Auto-generated method stub
 
 		int arr[] = {1, 5, 7, 1};
-		int sum=6;
+		//int sum=6;
 		int count=0;
 		for(int i=0;i<arr.length;i++)
 		{
@@ -20,5 +20,5 @@ public class CountPairsWithGivenSum {
 		}
 		System.out.println(count);
 	}
-
 }
+

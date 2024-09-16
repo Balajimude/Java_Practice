@@ -25,7 +25,7 @@ public class CountOccuranceOfEachCharacter {
 	    }
 	    System.out.print(hm);
 	  }
-	}
+}
 
 
 

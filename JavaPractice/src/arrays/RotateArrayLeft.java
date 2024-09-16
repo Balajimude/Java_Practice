@@ -14,17 +14,17 @@ public class RotateArrayLeft {
 			int b[]=new int [length];
 			int count=0;
 			System.out.println(Arrays.toString(a));
-			for(int i=length-d;i<length;i++)
+			for(int i=length-d-1;i<length;i++)
 			{
 				b[count++]=a[i];
 			}
 			System.out.println(Arrays.toString(b));
 			
-			for(int j=0;j<=length-d-1;j++)
+			for(int j=0;j<=length-d-2;j++)
 			{
 				b[count++]=a[j];
 			}
 			System.out.println(Arrays.toString(b));
 		}
-
 }
+ 

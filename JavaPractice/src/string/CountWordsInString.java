@@ -8,14 +8,13 @@ public class CountWordsInString
 		String s="welcome to java";
 		String splt[]=s.split(" ");
 		int count=0;
-		for(int i=0;i<=splt.length-1;i++)
+		for(int i=0;i<splt.length;i++)
 		{
 			if(splt[i].equals("java"))
 			count++;
 		}
 		System.out.println("NO of words in string is"+" "+count);
 	}
-
 }
 
 

@@ -7,7 +7,7 @@ public class MaxNo
 	{
 		
 		int a[]= {5,10,6,8,94,95};
-		int max=a[0];
+		int max=0;
 		for(int i=0;i<=a.length-1;i++)
 		{
 			if(a[i]>max)

@@ -15,8 +15,6 @@ public class CountCharInString {
 		}
 		System.out.println("No of Words In String is"+" "+count);
 	
-		
 	}
-
 }
 

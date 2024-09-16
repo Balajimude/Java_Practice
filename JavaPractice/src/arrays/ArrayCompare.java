@@ -15,7 +15,6 @@ public class ArrayCompare
 				if(a[i]!=b[i])
 				{
 					count++;
-				
 				}
 			}
 			if(count==0)
@@ -26,5 +25,4 @@ public class ArrayCompare
 		else
 			System.out.println("Given Array is Not Able To Compare");
 	}
-
 }

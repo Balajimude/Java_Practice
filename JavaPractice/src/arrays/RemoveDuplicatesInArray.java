@@ -14,7 +14,9 @@ class RemoveDuplicatesInArray
 			{
 			  b[count]=a[i];
 			  count++;
+			  break;
 			}
+		    
 		  }
 		  
 	   }

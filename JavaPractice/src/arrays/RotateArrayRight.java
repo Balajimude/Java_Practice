@@ -12,6 +12,7 @@ public class RotateArrayRight {
 		//Output: 3 4 5 1 2
 		int b[]=new int [length];
 		int count=0;
+		System.out.println(Arrays.toString(a));
 		for(int i=length-d-1;i<length;i++)
 		{
 			b[count++]=a[i];

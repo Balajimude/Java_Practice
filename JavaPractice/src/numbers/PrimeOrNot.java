@@ -16,9 +16,7 @@ public class PrimeOrNot {
 				System.out.println(i +""+"is prime Number");
 			else
 			    System.out.println(i+""+"is not prime Number");
-		}	
-		
-	
+		}
 	}
 
 

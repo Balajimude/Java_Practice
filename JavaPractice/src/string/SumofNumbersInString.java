@@ -1,3 +1,4 @@
+
 package string;
 
 public class SumofNumbersInString {
@@ -10,13 +11,12 @@ public class SumofNumbersInString {
 		int sum=0;
 		for(int i=0;i<c.length;i++)
 		{
-			if(c[i]>='0' && c[i]<='9')
+			if(Character.isDigit(c[i]))
 			{
 				sum += Character.getNumericValue(c[i]);
 			}
 		}
 		System.out.println("Sum is"+" "+sum);
 	}
-	
-
 }
+ 

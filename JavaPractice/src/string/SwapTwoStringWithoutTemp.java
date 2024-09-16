@@ -17,9 +17,6 @@ public class SwapTwoStringWithoutTemp
 		s2=c[0];
 		s=c[1];
 		System.out.println(s);
-		System.out.println(s2);
-
-		
+		System.out.println(s2);	
 	}
-
 }

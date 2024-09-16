@@ -15,5 +15,4 @@ public class CompareString
 		// using == operator
 		System.out.println(s==s2);
 	}
-
 }
